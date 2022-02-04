@@ -3,7 +3,7 @@ num=1
 i=1
 result=""
 
-while i<=len(s)-1 :
+while i<len(s) :
     if s[i-1]==s[i] :
         num+=1
         i+=1
